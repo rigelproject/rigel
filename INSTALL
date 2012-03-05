@@ -1,0 +1,20 @@
+
+# check out git repos
+git clone https://github.com/rigelproject/codegen.git && \
+git clone https://github.com/rigelproject/sim.git  && \
+git clone https://github.com/rigelproject/targetcode.git
+
+# install dependencies
+sudo apt-get install \
+ build-essential flex bison libelf-dev \ 
+ automake autoconf autotools-dev m4 libtool \
+ zlib1g-dev doxygen texinfo protobuf-compiler libprotobuf-dev
+
+# run install
+./install.sh
+
+# set environment
+# this install script should take care of these during the install, but for
+# future sesssions you will want to source these or add to bashrc or similar
+source ./scripts/bash/setvars.sh
+source ./scripts/bash/rigel.bashrc
