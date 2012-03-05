@@ -1,8 +1,8 @@
 
 # check out git repos
-git clone https://github.com/rigelproject/codegen.git && \
-git clone https://github.com/rigelproject/sim.git  && \
-git clone https://github.com/rigelproject/targetcode.git
+git clone https://github.com/rigelproject/rigel-codegen.git codegen && \
+git clone https://github.com/rigelproject/rigel-sim.git sim && \
+git clone https://github.com/rigelproject/rigel-targetcode.git targetcode
 
 # install dependencies
 sudo apt-get install \
