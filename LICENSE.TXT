@@ -63,6 +63,7 @@ binutils 2.18       codegen/binutils-2.18
 RandomLib 1.3       sim/RandomLib-1.3
 compiler-rt         targetcode/lib/compiler-rt
 newlib, libgloss    targetcode/lib/newlib
+nedmalloc           targetcode/lib/newlib/newlib/libc/sys/rigel/nedmalloc.*
 GJK benchmark       targetcode/src/benchmarks/gjk
 fft test data generator
                     targetcode/src/benchmarks/fft/fft_host.c
