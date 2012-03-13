@@ -71,4 +71,5 @@ C blocks            targetcode/include/Block.h
                     targetcode/lib/compiler-rt/BlocksRuntime
 System headers      various headers in targetcode/include
 (Courtesy of Matt Frank)
+rapidjson           sim/rapidjson
 
