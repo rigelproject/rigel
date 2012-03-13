@@ -6,6 +6,12 @@ It acts a container repo where cross-tool files, documents, and scripts live.
 By default, the other Rigel repositories are checked out to 
 the root working directory for of the rigel repo.
 
+The other repositories are:
+
+* [rigel-codegen](https://github.com/rigelproject/rigel-codegen)
+* [rigel-targetcode](https://github.com/rigelproject/rigel-targetcode)
+* [rigel-sim](https://github.com/rigelproject/rigel-sim)
+
 Organization
 ------------
 

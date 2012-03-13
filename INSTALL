@@ -8,7 +8,8 @@ git clone https://github.com/rigelproject/rigel-targetcode.git targetcode
 sudo apt-get install \
  build-essential flex bison libelf-dev \ 
  automake autoconf autotools-dev m4 libtool \
- zlib1g-dev doxygen texinfo protobuf-compiler libprotobuf-dev
+ zlib1g-dev doxygen texinfo protobuf-compiler \
+ libprotobuf-dev libfftw3-dev
 
 # run install
 ./install.sh
