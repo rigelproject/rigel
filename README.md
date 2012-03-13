@@ -12,6 +12,8 @@ The other repositories are:
 * [rigel-targetcode](https://github.com/rigelproject/rigel-targetcode)
 * [rigel-sim](https://github.com/rigelproject/rigel-sim)
 
+See installation instructions in [INSTALL](https://github.com/rigelproject/rigel/blob/master/INSTALL).
+
 Organization
 ------------
 
