@@ -1,20 +1,23 @@
-
-# check out git repos
-git clone https://github.com/rigelproject/rigel-codegen.git codegen && \
-git clone https://github.com/rigelproject/rigel-sim.git sim && \
-git clone https://github.com/rigelproject/rigel-targetcode.git targetcode
-
 # install dependencies
+# install pkg-config first so e.g. libprotobuf installs its .pc files
+sudo apt-get install pkg-config && \
 sudo apt-get install \
- build-essential flex bison libelf-dev \ 
+ build-essential flex bison libelf-dev \
  automake autoconf autotools-dev m4 libtool \
  zlib1g-dev doxygen texinfo protobuf-compiler \
  libprotobuf-dev libfftw3-dev
 
-# run install
+# check out git repos
+git clone https://github.com/rigelproject/rigel.git && \
+cd rigel && \
+git clone https://github.com/rigelproject/rigel-codegen.git codegen && \
+git clone https://github.com/rigelproject/rigel-sim.git sim && \
+git clone https://github.com/rigelproject/rigel-targetcode.git targetcode
+
+# run install script
 ./install.sh
 
-# set environment
+# set environment variables
 # this install script should take care of these during the install, but for
 # future sesssions you will want to source these or add to bashrc or similar
 source ./scripts/bash/setvars.sh
